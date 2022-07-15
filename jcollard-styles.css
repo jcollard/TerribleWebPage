@@ -1,0 +1,26 @@
+body {
+    background-color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    flex: 1;
+    padding: 10px;
+}
+
+.menu-item {
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.small-image {
+    width: 100%;
+}
+
+.border-right {
+    border-right: solid black 1px;
+}

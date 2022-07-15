@@ -1,0 +1,15 @@
+body {
+    background-color: crimson;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color: blue;
+    font-weight: 400;
+}
+p {
+    color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+
+}
