@@ -1,0 +1,35 @@
+
+body {
+    background-color: turquoise;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.2em;
+    color:blueviolet;
+}
+
+h2 {
+    font-family: Impact;
+    color: pink;
+    background-color: darkorange;
+    font-size: 2em;
+    font-stretch: extra-expanded;
+    font-weight: 200;
+}
+
+p {
+    font-family: cursive;
+    font-variant: small-caps;
+    color: navy;
+    background-color: crimson;
+}
+
+.information {
+    color: yellow;
+    font-weight: bold;
+}
+
+.large-font {
+    font-size: 1.2rem;
+}
