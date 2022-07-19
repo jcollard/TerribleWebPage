@@ -3,6 +3,7 @@
 <head>
     <title>The Terrible Page</title>
     <link rel="stylesheet" href="styles.css" />
+    
 </head>
 
 <body>
@@ -21,6 +22,26 @@
     <p class="information large-font">This is a web page from Captain Coder Org.</p>
     <p>We are making a terrible webpage. <img src="james_hubb.png" /> <br />This is crazy. Mx. Collard is a code
         mastermind.</p>
+
+    <form id="join-mailing-list">
+        <div class="input-wrapper">
+            <div class="form-row">
+                <label for="first-name">First Name:</label><input id="first-name" />
+            </div>
+            <div class="form-row">
+                <label for="last-name">Last Name:</label><input id="last-name" />
+            </div>
+            <div class="form-row">
+                <label for="email">Email:</label><input id="email" />
+            </div>
+            <div class="form-row">
+                <label for="middle-initial">Middle Initial:</label><input id="middle-initial" />
+            </div>
+            <div id="form-alert"></div>
+            <input class="submit-button" onclick="validateForm()" type="button" value="Submit"/>
+        </div>
+    </form>
+    <script src="script.js"></script>
 </body>
 
 </html>

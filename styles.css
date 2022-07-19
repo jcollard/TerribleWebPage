@@ -33,3 +33,39 @@ p {
 .large-font {
     font-size: 1.2rem;
 }
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.input-wrapper {
+    display:flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-row {
+    display: flex;
+}
+
+.input-wrapper label {
+    min-width: 100px;
+}
+
+.input-wrapper input {
+    flex: 1;
+}
+
+.submit-button {
+    width:250px;
+    margin: auto;
+    margin-top: 16px;
+}
+
+#form-alert {
+    color: red;
+    font-weight: bold;
+}
